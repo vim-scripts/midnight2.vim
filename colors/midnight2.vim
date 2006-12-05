@@ -42,13 +42,13 @@ function! ToggleSemicolonHighlighting()
 endfunction
 "}}}
 
-hi Cursor guifg=bg guibg=fg ctermfg=0 ctermbg=11
+hi Cursor guibg=fg guifg=bg ctermfg=0 ctermbg=11
 "hi CursorIM   
 hi Directory gui=bold
-hi DiffAdd guifg=yellow3 guibg=darkgreen ctermbg=0
-"hi DiffChange 
-"hi DiffDelete green
-"hi DiffText   
+hi DiffAdd guibg=slategray4 ctermbg=0
+hi DiffChange guibg=steelblue3 guifg=bg gui=NONE
+hi DiffDelete guibg=slategray4 guifg=slategray3
+hi DiffText guibg=steelblue4 gui=bold
 hi ErrorMsg guibg=red3 ctermfg=1
 "hi VertSplit  
 hi Folded guibg=#00001a guifg=yellow3 ctermbg=4 ctermfg=11 gui=NONE
